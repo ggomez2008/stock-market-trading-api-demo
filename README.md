@@ -36,6 +36,9 @@ Executes a buy order and saves transaction in a database
 **Method**\
 POST
 
+**Params**\
+symbol: a string between 1 and 14 characters
+
 **Body (JSON)**\
 userId: an integer representing the user\
 symbol: a string between 1 and 14 characters\
@@ -49,6 +52,9 @@ Executes a sell order and saves transaction in a database
 
 **Method**\
 PUT
+
+**Params**\
+symbol: a string between 1 and 14 characters
 
 **Body (JSON)**\
 userId: an integer representing the user\
