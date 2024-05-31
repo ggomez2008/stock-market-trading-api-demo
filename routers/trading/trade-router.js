@@ -7,7 +7,7 @@ const {
 const {
     buyStock,
     sellStock,
-} = require('../../controllers/trading')
+} = require('../../controllers/trading/')
 
 const tradingRouter = () => {
     router.use('/market', validateSymbolParam, getGlobalQuote)
