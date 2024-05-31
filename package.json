@@ -1,0 +1,18 @@
+{
+  "name": "mock-stock-market-trading-api",
+  "version": "1.0.0",
+  "description": "A mock stock market trading API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "node-fetch": "^2.7.0",
+    "pg": "^8.11.5"
+  }
+}
